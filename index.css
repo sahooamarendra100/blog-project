@@ -12,7 +12,7 @@
   .logo:hover {
     text-decoration: none;
   }
-  .scroll {
+  .nav-scroll {
     position: relative;
     z-index: 2;
     height: 2.75rem;
@@ -49,3 +49,4 @@
   .last p:last-child {
     margin-bottom: 0;
   }
+  c
