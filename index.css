@@ -1,0 +1,51 @@
+
+.header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .logo {
+    font-family: "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+  
+  .logo:hover {
+    text-decoration: none;
+  }
+  .scroll {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  .img {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+  }
+  .blog-title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .blog-description {
+    font-size: 1.1rem;
+    color: #999;
+  }
+  .space {
+    margin-bottom: 4rem;
+  }
+  .space > .btn {
+    border-radius: 2rem;
+  }
+  
+ 
+  .last {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+  }
+  .last p:last-child {
+    margin-bottom: 0;
+  }
