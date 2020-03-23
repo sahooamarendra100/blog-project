@@ -3,27 +3,13 @@
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
   }
-  
   .logo {
-    font-family: "Times New Roman", serif;
     font-size: 2.25rem;
   }
-  
-  .logo:hover {
-    text-decoration: none;
-  }
   .nav-scroller {
-    position: relative;
-    z-index: 2;
     height: 2.75rem;
     overflow-y: hidden;
-  }
-  
-  
-  .nav-scroller .nav-link {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    font-size: .875rem;
+    z-index: 2;
   }
   .img {
     height: 100%;
@@ -38,27 +24,6 @@
     font-size: 1.1rem;
     color: #999;
   }
-  .space {
-    margin-bottom: 4rem;
-  }
-  .space > .btn {
-    border-radius: 2rem;
-  }
-  .nav-scroller .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
-  
- 
   .last {
     padding: 40px 0;
     color: #999;
